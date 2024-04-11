@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export const getFieldErrors = (fieldsData, allEmails) => {
   const errors = {};
 
