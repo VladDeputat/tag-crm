@@ -1,0 +1,77 @@
+.container {
+  max-width: fit-content;
+  margin: 30px auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form {
+  display: flex;
+  border: 1px solid #999999;
+  flex-direction: column;
+  padding: 10px 20px 30px;
+  font: 14px Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  background: #b4cced;
+
+  .fieldWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    font-weight: bold;
+    margin: 0 10px 20px;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  label {
+    display: block;
+    margin: 0px 0px 5px 0px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+  }
+
+  .field {
+    height: 40px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2c3e50;
+    font-size: 18px;
+
+    &:focus {
+      outline: 2px solid #2684ff;
+    }
+  }
+
+  .select {
+    margin-bottom: 15px;
+    font-size: 18px;
+    max-width: 100vw;
+
+    input {
+      height: 26px;
+    }
+  }
+
+  .btnBox {
+    margin-top: 30px;
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+  }
+}
